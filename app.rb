@@ -4,5 +4,5 @@ set :bind, '0.0.0.0'
 set :port, 8080
 
 get '/' do
-  "Hello, Sinatra!"
+  "<h1>Hello World</h1> <h2>Happy to openshift working</h2> !"
 end
